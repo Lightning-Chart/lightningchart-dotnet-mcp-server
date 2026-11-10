@@ -1,6 +1,6 @@
 {
     "name": "@lightningchart/dotnet-mcp-server",
-    "version": "1.0.2",
+    "version": "1.0.3",
     "description": "MCP server that gives AI agents LightningChart .NET source-of-truth guidance.",
     "type": "module",
     "homepage": "https://github.com/Lightning-Chart/lightningchart-dotnet-mcp-server#readme",

@@ -1,4 +1,4 @@
-# LightningChart JS Trader MCP Server
+# LightningChart .NET MCP Server
 
 Give AI coding agents the LightningChart .NET instructions they need before they
 write charting code.
