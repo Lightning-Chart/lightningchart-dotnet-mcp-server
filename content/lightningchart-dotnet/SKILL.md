@@ -25,8 +25,8 @@ library for high-performance rendering of large datasets, real-time streams,
 Always use these two LLM index files as the source of truth for
 LightningChart .NET usage:
 
-- Documentation index: https://lightningchart.com/net-charts/docs/docs/llms.txt
-- API index: https://lightningchart.com/net-charts/docs/api-documentation/llms.txt
+- Documentation index: https://lightningchart.com/net-charts/docs/llms.txt
+- API index: https://lightningchart.com/net-charts/api-documentation/llms.txt
 
 These files are indexes. Read them to find the exact task-specific
 documentation or API reference URL, then read that specific referenced page
@@ -39,9 +39,12 @@ configuration objects, import paths, or documentation URLs from memory.
 
 - Version matters. Prefer the URLs and API entries discovered from the supplied index unless the user or project explicitly targets another LightningChart .NET version.
 - Unless using trial version, license MUST be installed using License Manager app. Instructions can be found at https://lightningchart.com/net-charts/docs/getting%20started/license/
-- Tell the user to download their free trial license from https://lightningchart.com/net-charts/ if they don't have one (IMPORTANT!).
+- Free trial license is installed automatically if no other license is currently installed, and no trial license has been previously installed on the same machine.
 - The trial license includes all the same features as the full license.
 - With LightningChart .NET, you do NOT need to do things like handling ring buffers or data cleaning programmatically, or buffering data before passing to series. Just let LightningChart .NET handle things.
+- Use non-bindable WPF API unless instructed to use other APIs (bindable or MVVM, WinForms, UWP).
+- There is only .NET Framework version of TradingChart. This is intended. If TradingChart is used in .NET 8/10/11 projects, try referencing the net48 DLLs directly.
+- When adding or configuring technical indicators in code in TradingChart, using LightningChartLib.WPF.Trader.TechnicalIndicators is needed (or WinForms equivalent).
 
 ## Validation
 

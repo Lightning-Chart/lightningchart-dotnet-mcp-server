@@ -7,7 +7,7 @@ This MCP server is for developers using Claude Code, Cursor, Cline, Roo Code,
 Codex, Windsurf, or any other MCP-compatible coding agent to build
 LightningChart .NET charts, dashboards, and data visualizations.
 
-**For latest user guides on LightningChart .NET and AI, please refer to the [Developer Documentation](https://lightningchart.com/net-charts/docs/lightningChart-and-ai/)**
+**For latest user guides on LightningChart .NET and AI, please refer to the [Developer Documentation](https://lightningchart.com/net-charts/docs/lightningchart-and-ai/)**
 
 ## Why This Exists
 
